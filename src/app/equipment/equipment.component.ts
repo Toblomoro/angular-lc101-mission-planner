@@ -37,8 +37,10 @@ export class EquipmentComponent implements OnInit {
   }
   fullCargo(){
     if (this.cargoHold.length === this.maxItems) {
-      return false
-    } 
+      
+    } else {
+      
+    }
   }
 
    // Code your addItem function here:
